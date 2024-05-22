@@ -3,11 +3,11 @@ const removeFromArray = function(array, ...theArgs) {
     const newArray = [];
 
     array.forEach((item) => {
-        if(!theArgs.includes(item){
+        if(!theArgs.includes(item)){
 
             newArray.push(item);
 
-        })
+        };
         
     });
 
